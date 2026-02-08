@@ -1,0 +1,31 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local agent tooling (not part of the deck)
+.agents/
+
+# Node / Slidev (any folder)
+**/node_modules/
+**/dist/
+**/.slidev/
+**/.vite/
+**/.npm-cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Slidev exports (default names)
+**/slides-export*.pdf
+**/slides-export*.pptx
+
+# Paper PDFs kept locally (use Git LFS if you want to version them)
+2408.12214v2.pdf
+2503.10009v3.pdf
+LLM+OC - Applications and MEthods.pdf
+

@@ -1,0 +1,118 @@
+:root {
+  --slidev-theme-primary: #2563eb;
+}
+
+.slidev-layout {
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
+  letter-spacing: -0.01em;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  letter-spacing: -0.02em;
+}
+
+.slidev-layout h1 {
+  font-weight: 800;
+}
+
+.slidev-layout h2 {
+  font-weight: 750;
+}
+
+.slidev-layout ul {
+  line-height: 1.25;
+}
+
+.kicker {
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(100, 116, 139, 0.95);
+  margin-bottom: 0.8rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.card-grid.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card {
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  border-radius: 0.8rem;
+  padding: 0.9rem 1rem;
+  background: rgba(248, 250, 252, 0.72);
+}
+
+.card h3 {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.05rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: rgba(51, 65, 85, 0.95);
+}
+
+.card p + p {
+  margin-top: 0.35rem;
+}
+
+img {
+  border-radius: 0.8rem;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  box-shadow: 0 10px 34px rgba(15, 23, 42, 0.14);
+}
+
+.small-source {
+  color: rgba(100, 116, 139, 0.92);
+  margin-top: 0.35rem;
+}
+
+.so-what {
+  margin-top: 0.9rem;
+  padding: 0.65rem 0.8rem;
+  border-left: 4px solid var(--slidev-theme-primary);
+  background: rgba(37, 99, 235, 0.06);
+  border-radius: 0.6rem;
+  color: rgba(15, 23, 42, 0.92);
+}
+
+.dark .kicker {
+  color: rgba(148, 163, 184, 0.92);
+}
+
+.dark .card {
+  background: rgba(15, 23, 42, 0.38);
+  border-color: rgba(148, 163, 184, 0.28);
+}
+
+.dark .card p {
+  color: rgba(226, 232, 240, 0.92);
+}
+
+.dark .small-source {
+  color: rgba(148, 163, 184, 0.9);
+}
+
+.dark .so-what {
+  background: rgba(37, 99, 235, 0.14);
+  color: rgba(226, 232, 240, 0.92);
+}
