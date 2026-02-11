@@ -16,7 +16,7 @@ kicker: "Case study — Zhang et al. (OR-LLM-Agent)"
 <v-clicks style="margin: 5px 0;">
 
 - **Task decomposition**: 3 sub-agenti (Math → Code → Debug)
-- **Reasoning LLM** (<i>off-the-shelf</i>): niente <i>fine-tuning</i>/<i>retraining</i> dichiarato
+- **Reasoning LLM**: niente <i>fine-tuning</i> / <i>retraining</i> dichiarato
 - **Closed-loop**: esecuzione/<i>solver</i> come <i>feedback</i> per <i>repair</i> e robustezza
 
 </v-clicks>
@@ -45,7 +45,7 @@ layout: default
 kicker: "Case study — Zhang et al. (sub-agents)"
 ---
 
-## OR-LLM-Agent: cosa fanno i sub-agent (e perché aiuta)
+## OR-LLM-Agent: cosa fanno i sub-agent
 
 <CardGrid style="margin:22px -5px;">
   <Card v-click>

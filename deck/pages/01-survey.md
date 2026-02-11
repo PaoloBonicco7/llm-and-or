@@ -104,7 +104,7 @@ Le **3 tipologie di approccio** ricorrenti nella letteratura su **OR+LLM**, con 
 kicker: "Survey (Wang & Li) — tassonomia"
 ---
 
-## Survey: 3 pathways (mappa mentale)
+## Survey: 3 pathways
 
 <CardGrid class="deck-grid">
   <Card v-click>
@@ -145,7 +145,7 @@ kicker: "Survey (Wang & Li) — Pathway 1"
 layoutClass: pathway1-split
 ---
 
-## Pathway 1 — Automatic modeling (closed-loop)
+## Pathway 1 — Automatic modeling
 
 <v-clicks style="margin: 0 20px 0 -20px">
 
@@ -180,7 +180,7 @@ layoutClass: pathway1-split
 kicker: "Survey (Wang & Li) — Pathway 1 (metodi)"
 ---
 
-## Automatic modeling: famiglie di metodi (trade-off)
+## Automatic modeling: famiglie di metodi
 
 <CardGrid class="deck-grid">
   <Card v-click>
