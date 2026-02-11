@@ -2,6 +2,12 @@
 
 Deck Slidev per la presentazione.
 
+## Struttura
+- `slides.md` è l’entrypoint e importa le sezioni da `pages/`
+- `pages/` contiene le slide divise per capitoli (più facile da mantenere)
+- `components/` contiene componenti riusabili (es. `Callout`, `Figure`)
+- `layouts/` override di layout base (default, two-cols, section) per supportare `kicker:` in frontmatter
+
 ## Prerequisiti
 - Node.js + npm
 
@@ -16,6 +22,3 @@ npm run dev
 npm run build
 npm run export
 ```
-
-## Asset figure
-Le immagini in `public/fig/` sono placeholder: vanno sostituite con export/screenshot delle figure dai PDF (vedi `public/fig/README.md`).
